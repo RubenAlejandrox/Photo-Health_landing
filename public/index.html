@@ -353,6 +353,8 @@ img{max-width:100%;display:block}
 .oni-g{background:var(--green-s);color:var(--green)}
 .oni-a{background:var(--amber-s);color:var(--amber)}
 .oni-bl{background:rgba(30,40,64,0.08);color:var(--ink2)}
+.org-photo{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid var(--border);box-shadow:var(--shadow-sm);display:block;margin:0 auto 10px;}
+.org-node.photo-node{display:flex;flex-direction:column;align-items:center;text-align:center;padding:14px 10px;}
 
 /* ══════════════════════════════════════
    CTA FINAL
@@ -446,7 +448,7 @@ img{max-width:100%;display:block}
     <div class="nav-inner">
       <a href="#" class="nav-logo">
         <div class="nav-logo-icon">
-          <img src="../logop&h.png" alt="Photo &amp; Health logo" style="width:38px;height:38px;border-radius:12px;object-fit:cover;">
+          <img src="../logoP&H.png" alt="Photo &amp; Health logo" style="width:38px;height:38px;border-radius:12px;object-fit:cover;">
         </div>
         Photo <span>&nbsp;&amp;&nbsp;</span> Health
       </a>
@@ -877,9 +879,9 @@ img{max-width:100%;display:block}
         <div class="org-title-label">Estructura del equipo</div>
         <div class="org-chart">
           <div class="org-top-row">
-            <div style="display:flex;flex-direction:column;align-items:center;padding-top:10px;width:100px;">
-              <div class="org-node" style="width:100%;">
-                <div class="org-node-icon oni-o"><i class="fa-solid fa-handshake"></i></div>
+            <div style="display:flex;flex-direction:column;align-items:center;padding-top:10px;width:110px;">
+              <div class="org-node photo-node" style="width:100%;">
+                <img src="../or_Estrella.png" alt="Estrella Serrano" class="org-photo">
                 <div class="org-name">Estrella Serrano</div>
                 <div class="org-role">Comercial y de Alianzas</div>
               </div>
@@ -897,9 +899,9 @@ img{max-width:100%;display:block}
             <div style="display:flex;align-items:center;margin-top:36px;flex:1;justify-content:flex-start;">
               <div class="org-hline" style="flex:1;max-width:32px;"></div>
             </div>
-            <div style="display:flex;flex-direction:column;align-items:center;padding-top:10px;width:100px;">
-              <div class="org-node" style="width:100%;">
-                <div class="org-node-icon oni-a"><i class="fa-solid fa-lightbulb"></i></div>
+            <div style="display:flex;flex-direction:column;align-items:center;padding-top:10px;width:110px;">
+              <div class="org-node photo-node" style="width:100%;">
+                <img src="../or_Anaya.png" alt="Alejandro Anaya" class="org-photo">
                 <div class="org-name">Alejandro Anaya</div>
                 <div class="org-role">Innovación operacional</div>
               </div>
@@ -916,22 +918,22 @@ img{max-width:100%;display:block}
           <div class="org-bottom-section">
             <div class="org-branch-row">
               <div class="org-leaf">
-                <div class="org-node leaf-small">
-                  <div class="org-node-icon oni-bl" style="margin:0 auto 6px;"><i class="fa-solid fa-globe"></i></div>
+                <div class="org-node photo-node leaf-small">
+                  <img src="../or_Jorge.png" alt="Jorge Toris" class="org-photo" style="width:60px;height:60px;">
                   <div class="org-name">Jorge Toris</div>
                   <div class="org-role">Desarrollador WEB</div>
                 </div>
               </div>
               <div class="org-leaf">
-                <div class="org-node leaf-small">
-                  <div class="org-node-icon oni-t" style="margin:0 auto 6px;"><i class="fa-solid fa-brain"></i></div>
+                <div class="org-node photo-node leaf-small">
+                  <img src="../or_Luis.png" alt="Luis Tarango" class="org-photo" style="width:60px;height:60px;">
                   <div class="org-name">Luis Tarango</div>
                   <div class="org-role">Arquitecto de modelos predictivos</div>
                 </div>
               </div>
               <div class="org-leaf">
-                <div class="org-node leaf-small">
-                  <div class="org-node-icon oni-g" style="margin:0 auto 6px;"><i class="fa-solid fa-mobile-screen"></i></div>
+                <div class="org-node photo-node leaf-small">
+                  <img src="../or_David.png" alt="David Johnson" class="org-photo" style="width:60px;height:60px;">
                   <div class="org-name">David Johnson</div>
                   <div class="org-role">Desarrollador móvil</div>
                 </div>
@@ -970,7 +972,7 @@ img{max-width:100%;display:block}
       <div class="footer-brand">
         <div class="footer-logo">
           <div class="footer-logo-icon">
-            <img src="../logop&h.png" alt="Photo &amp; Health" style="width:34px;height:34px;border-radius:10px;object-fit:cover;">
+            <img src="../logoP&H.png" alt="Photo &amp; Health" style="width:34px;height:34px;border-radius:10px;object-fit:cover;">
           </div>
           Photo &amp; Health
         </div>
